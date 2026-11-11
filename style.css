@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+header{background-image: url(encabezado.png);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 315px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 100;
+    padding: 10px;
+    padding-left:10% ;
+    padding-right: 10%;
+  display: flex;
+justify-content: space-between;
+align-items: center;}
+
+.logo{height:300px;
+}
+
+h3{color:#fffe90 ;
+font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600;
+  font-style: normal;}
+
+  .personajes {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 100px;
+    padding-right: 20%;
+    color: #fffe90;
+}
+
+.personajes a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url("Siko fondo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.boton-quiz-flotante {
+    position: fixed;         
+    right: 0;                
+    top: 50%;                
+    transform: translateY(-50%);  
+    z-index: 9999;         
+    display: block;        
+    transition: transform 0.3s ease;
+}
+
+.boton-quiz-flotante img {
+    width: 400px;        
+    height: auto;
+    display: block;
+}
+
+.boton-quiz-flotante:hover {
+    transform: translateY(-50%) scale(1.05);
+}
+
+#textofecha {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 24%;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-size: 42px;
+    color: black;
+}
+
+#textonombre {
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 25%;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-size: 82px;
+    color: black;
+}
+
+#textopost {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 16%;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-size: 76px;
+    color: black;
+}
+
+#textoestado {
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 16%;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-size: 76px;
+    color: #de0c7b;
+}
+
+#textoSecundario {
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 22%;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-size: 76px;
+    color: black;
+}
+
+#textoNovedades {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 37%;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-size: 76px;
+    color: black;
+    z-index: 100;
+}
+#textoInfoserie {
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 37%;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-size: 68px;
+    color: black;
+    z-index: 100;
+}
+
+#textoinfoquiz {
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 70%;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-size: 58px;
+    color: white;
+    z-index: 100;
+}
+
+#textoUsuario {
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 18%;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-size: 62px;
+    color: #de0c7b;
+    z-index: 100;
+}
+
+#textoJade {
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 33%;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-size: 62px;
+    color: #de0c7b;
+    z-index: 100;
+}
+
+#textoCat {
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 49%;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-size: 62px;
+    color: #de0c7b;
+    z-index: 100;
+}
+
+#textoTori {
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 64%;
+    font-family: "Nunito", sans-serif;
+    font-style: 62;
+    font-size: 62px;
+    color: #de0c7b;
+    z-index: 100;
+}
+
+#textoTrina {
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 78%;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-size: 62px;
+    color: #de0c7b;
+    z-index: 100;
+}
+
+.Sikofotopost {
+    margin-top: 4%;
+    margin-left: 15%;
+    width: 1180px;
+    height: auto;
+}
+
+.Sikoquizinfo img {
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 35%;
+    width: 3100px;
+    height: auto;
+}
+
+.Sikorecuadroinfoserie img {    
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 35%;
+    width: 3100px;
+    height: auto;
+}
+
+.Sikousuarioypersonajes {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.Usuario {
+    width: 640px;
+}
+
+.personaje1 {
+    width: 680px;
+    padding-left: 4%;
+}
+
+.personaje2 {
+    width: 680px;
+    padding-left: 4%;
+}
+
+.personaje3 {
+    width: 680px;
+    padding-left: 4%;
+}
+
+.personaje4 {
+    width: 680px;
+    padding-left: 4%;
+}
+
+footer {
+   
+    background-image: url("pie.png");
+    width: 100%;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ 
+.logo2 {
+    width: 650px;
+    height: 130px;
+    display: block; 
+    margin: 0 auto;
+}
+ 
+h6 {
+    color: #fffe90;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+}
+
+.icono {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+}
+ 
+.iconos {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; 
+    padding: 10px;
+
+}
+.iconos img {
+    width: 35px;
+    height: 30px;
+}
